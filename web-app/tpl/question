@@ -1,0 +1,35 @@
+<div class="page-header">
+  <h3>{{question.title}} <small style="color:green;">{{question.upVote}}</small> <small>/</small> <small style="color:red;">{{question.downVote}}</small></h3>
+</div>
+
+<div class="panel panel-default" style="margin-left:15px; background-color:light-gray; padding:15px; padding-left:15px">
+	<p>{{question.text}}</p>
+
+</div>
+
+<!-- New answer Modal -->
+<div class="modal fade" id="zz-modal-answer-new" tabindex="-1" role="dialog" aria-labelledby="zz-modal-answer-new-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="zz-modal-answer-new-label">New answer</h4>
+      </div>
+      <div class="modal-body">
+      	<div id="zz-modal-answer-new-error" class="alert alert-danger" style="display:none"></div>
+        <form class="form-signin" role="form">
+			<textarea id="zz-modal-answer-new-body" type="text" class="form-control" placeholder="Your answer" required=""></textarea>
+			<button class="btn btn-lg btn-primary btn-block" onClick="UI.Question.sendNewAnswer()">Answer!</button>
+		</form>
+		<h5>Press <em>Enter </em> &nbsp;to submit.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{question.answers}}
+	réponse
+{{/question.answers}}

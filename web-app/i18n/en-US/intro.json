@@ -1,0 +1,19 @@
+{
+  "steps": [
+    {
+      "element": "#choose_catalog_dropdown",
+      "intro": "BLABLA",
+      "position": "right" 
+    },
+    {
+      "element": "#topbar",
+      "intro": "This bar always appears at the top, it will come handy",
+      "position": "bottom" 
+    },
+    {
+    	"element": "#cust_menu_dropdown",
+    	"intro": "This dropdown contains the website's main menu.",
+    	"position": "bottom"
+    },
+  ]
+}

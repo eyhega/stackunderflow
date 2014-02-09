@@ -1,0 +1,11 @@
+{
+  "title": "StackUnderflow - The only site breaking the stack from the bottom.",
+  "sidebar": {
+  	"user_info": "User informations",
+  	"no_desc": "You have no description",
+  	"badges": "Your badges"
+  },
+  "load": {
+    "loading": "Loading...",
+  }
+}

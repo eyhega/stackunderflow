@@ -1,0 +1,11 @@
+{
+  "title": "StackUnderflow - Le seul site cassant la pile par le dessous.",
+  "sidebar": {
+  	"user_info": "Informations utilisateurs",
+  	"no_desc": "Vous n'avez pas de description ",
+  	"badges": "Vos badges "
+  },
+  "load": {
+    "loading": "Chargement...",
+  }
+}

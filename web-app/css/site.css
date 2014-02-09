@@ -1,0 +1,39 @@
+.zz-icon-navbar-margin {
+	margin-right:4px;
+}
+
+div#zz-sidebar {
+	height: 100%;
+	padding-right: 0px !important;
+	padding: 20px;
+	padding-top: 0px;
+	margin-right: 20px;
+	overflow: scroll;
+}
+
+div#zz-main-content {
+	height: 100%;
+	overflow: scroll;
+}
+
+.zz-profile-picture {
+	width: 140px;
+}
+
+.zz-question-list {
+	margin-top: 20px;
+	padding-left: 30px;
+	height:40px;
+	border-top: solid 1px lightgray;
+	border-bottom: solid 1px lightgray;
+	cursor: pointer;
+	display:block;
+}
+
+.zz-question-list:hover {
+	background-color: lightgray;
+};
+
+.zz-question-new {
+	height:50px;
+}

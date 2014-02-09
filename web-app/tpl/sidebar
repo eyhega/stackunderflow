@@ -1,0 +1,21 @@
+<div class="panel-body">
+	<img class="img-circle zz-profile-picture" alt="..."/>
+</div>
+
+<p style="padding-left: 15px">
+<h5>{{do|translate>sidebar.user_info}}:</h5>
+	{{user.name}}<br/>
+	{{user.email}}<br/>
+	{{if user.description}}<br/>
+	{{user.description}}
+	{{else}}
+	{{do|translate>sidebar.no_desc}}
+	{{/if}}
+</p>
+
+<p>
+	<h5>{{do|translate> sidebar.badges}}:</h5><br/>
+	{{badges}}
+	<span class="badge">{{text}}</span>
+	{{/badges}}
+</p>
