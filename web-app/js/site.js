@@ -39,7 +39,7 @@ var Site =
 	isLogOn: function(callback) {
 		$j.ajax({
     		type: "POST",
-    		url: '/StackUnderflow/user/current',
+    		url: '/user/current',
     		data: 
     		{
     			
@@ -66,7 +66,7 @@ var Site =
 
 		$j.ajax({
     		type: "POST",
-    		url: '/StackUnderflow/user/login',
+    		url: '/user/login',
     		data: 
     		{
     			name: username, 
@@ -90,7 +90,7 @@ var Site =
 	},
 
 	logOut: function() {	
-		$j.get('/StackUnderflow/user/logout');
+		$j.get('/user/logout');
 		UI.Login.onNotLogOn();
 	},
 
@@ -99,7 +99,7 @@ var Site =
 
 		$j.ajax({
     		type: "POST",
-    		url: '/StackUnderflow/user/register',
+    		url: '/user/register',
     		data: 
     		{
     			name: username,
@@ -123,7 +123,7 @@ var Site =
 
 		$j.ajax({
     		type: "POST",
-    		url: '/StackUnderflow/question/newQuestion',
+    		url: '/question/newQuestion',
     		data: 
     		{
     			title: title,
